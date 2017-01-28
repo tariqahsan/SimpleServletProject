@@ -53,6 +53,7 @@ public class XmlServlet extends HttpServlet {
 		writer.println("Hello user " + userName + ". Your full name is " + name);
 		writer.println(" and you are a " + prof);
 		writer.println(" and you are located in -- ");
+	
 		for( int i=0; i < locations.length; i++ ) {
 			writer.println(locations[i]);
 		}
